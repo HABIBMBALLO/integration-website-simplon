@@ -179,17 +179,11 @@
         margin-right: 60px;
     }
 
-    .rendre-rouge{
-        top: 60px;
-        margin-top: 80px;
+    .rendre-rouge{     
         background-color: #ec0033;
-        width: 90%;
         height: 65%;
-        margin: auto;
-        padding: 30px;
         opacity: 95%;
         color: white;
-        flex-wrap: wrap;
     }
     .rendre-rouge .block{
         margin-top: 20px;
