@@ -54,7 +54,7 @@
       }
     .logo{
         height: 50px;
-        width: 88px;
+        width: 80px;
     }
 
     .mon-navbar{
@@ -146,7 +146,7 @@
     .banniere1{
         position: relative;
     max-width: 100%;
-    height: 470px;
+    height: 490px;
     filter: saturate(0);
     }
     .partenariat {
@@ -166,33 +166,34 @@
     }
     .overlay img{
         width: 100%;
-        height: 650px;
+        height: 750px;
         filter: brightness(20%);
         margin-top:28px;
     }
 
     .balo{
         display: flex;
-        position: absolute;
+        position: relative;
         top: 2000px;
         margin-left: 60px;
         margin-right: 60px;
     }
 
     .rendre-rouge{
+        top: 60px;
         margin-top: 80px;
         background-color: #ec0033;
         width: 90%;
-        height: 70%;
+        height: 65%;
         margin: auto;
         padding: 30px;
         opacity: 95%;
         color: white;
-        display:block;
         flex-wrap: wrap;
     }
     .rendre-rouge .block{
         margin-top: 20px;
+        top: 990px;
     }
     .rendre-rouge .block p{
         margin-right: 35px;
@@ -230,8 +231,11 @@
         margin: 0px;
         padding: 0px;
     }
-    .end{
-        flex-direction: column;
+    .footer{
+        background-image: url(../img/footer.png);
+        background-repeat: no-repeat;
+    }
+    .footer-element-color-red{
         background-color: #ec0033;
         color: white;
     }
@@ -240,8 +244,3 @@
 
     
 
-
-
-
-        /* border: 1px solid; */
-    /* } */

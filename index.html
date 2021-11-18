@@ -47,10 +47,13 @@
                         </li>
                         <li class="nav-item "><img src="img/search.svg" alt="image search"></li>
                         <li class="nav-item dropdown">
-                          fr<img src="img/arrow.png" alt="">
-                          <div class="dropdown-content" >
-                            <a href="">fr</a>
-                            <a href="">en</a>
+                          <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span>Fr</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                              <li><a class="dropdown-item" href="#">En</a></li>
+                            </ul>
                           </div>
                         </li>
                         <li class="nav-item">
@@ -187,7 +190,7 @@
                 proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br>
               <div style="display: flex;" class="row row-cols-2 row-cols-md-3 g-4 text-center">
                 <div class="col">
-                  <div class="card h-20">
+                  <div class="card h-10">
                     <img src="img/cool.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Fabrique 1</h5>
@@ -200,7 +203,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-20">
+                  <div class="card h-10">
                     <img src="img/cool.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Fabrique 2</h5>
@@ -213,7 +216,7 @@
                   </div>
                 </div>
                 <div class="col">
-                  <div class="card h-20">
+                  <div class="card h-10">
                     <img src="img/cool.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Fabrique 3</h5>
@@ -260,63 +263,59 @@
                     <div class="col-4 col-lg-2"><img style="width: 60px; height: 60px;" src="img/wave.jpg" alt=""></div>
                   </div>
                 </div><br><br><br><br>
-                  <footer style=" background-repeat: no-repeat; background-image: url(img/footer.png);" class="footer row py-lg-2 py-md-2 py-sm-2 px-sm-2 bg-black">
-                    <div style="top: 680%; opacity: 95%;" class="container-fluid">
-                      <img style="width: 28px 40px;" src="img/logo-simplon.svg" alt="">
-                    </div>
-                    <div class=" col-md-6 col-lg-3 col-sm-6  text-white">
-                      <div class="row align-items-center">
-                        <div class="col-lg-3 pb-md-2 col-md-6 col-sm-6">
-                          <img style="float: left;" src="img/twitter.svg" alt="">
-                        </div>
-                        <div class="col-lg-3 pb-2 col-md-6 col-sm-6">
-                          <img src="img/facebook.svg" alt="">
-                        </div>
-                        <div class="col-lg-3 pb-2  col-md-6 col-sm-6">
-                          <img src="img/instagram.svg" alt="">
-                        </div>
-                        <div class="col-lg-3 pb-2 col-md-6  col-sm-6">
-                          <img src="img/youtube-icon.svg" alt="">
-                        </div>
+                <footer class="footer row py-3 px-3">
+                  <div class=" col-md-6 col-lg-3 col-xl-3 col-sm-12 px-5 text-white">
+                      <div class="row pb-sm-2 pb-lg-5 -pb-md-3">
+                          <img src="img/logo-simplon.svg" alt="logo de simplon" class="img-fluid">
                       </div>
-                    </div>
-                    <div class=" col-lg-3 pb-2 col-sm-6 text-white">
-                      <p class="font-weight-bold h1 pb-sm-2 pb-lg-4 -pb-md-3">Voir plus</p>
-                      <p class="h5">À propos</p>
-                      <p class="h5">Notre histoire</p>
-                      <p class="h5">Conditions d'utilisation</p>
-                      <p class="h5">Politique de confidentialité</p>
-                      <p class="h5">FAQ</p>
-                    </div>
-                    <div class=" col-lg-3 pb-2 text-white">
-                      <p class="font-weight-bold h2 pb-sm-2 pb-lg-5 -pb-md-3">Coordonnées</p>
-                      <p class="h4 pb-lg-5 -pb-md-3 pb-sm-1">Cité Keur Gorgui <br> Dakar, Sicap, Liberté 2 <br> Sénégal</p>
-                      <p class="h4 pb-sm-2 font-weight-bold">simplon@email.com <br> help@simplon.com</p>
-                      <p class="h4">+221 76 xxx xx xx <br>+221 78 xxx xx xx </p>
-                    </div>
-                    <div class="col-lg-3 pb-2 text-white">
-                      <p class="font-weight-bold h2 pb-sm-2 pb-lg-5 -pb-md-3">Notre Newsletter</p>
-                      <p class="h4">Souscrivez-vous à notre newsletter pour ne manquer aucune de nos activités</p>
-                      <div class="height-input input-group mb-3">
-                        <input type="email" class="form-control" placeholder="Email" aria-label="Recipient's username"
-                          aria-describedby="button-addon2">
-                        <button class="btn btn-danger" type="submit" id="button-addon2">Joindre</button>
+                      <div class="row align-items-center py-5">
+                          <div class="col-3">
+                              <img src="img/twitter.svg" alt="Logo de twitter">
+                          </div>
+                          <div class="col-3">
+                              <img src="img/facebook.svg" alt="Logo de facebook">
+                          </div>
+                          <div class="col-3">
+                              <img src="img/instagram.svg" alt="Logo de instagram">
+                          </div>
+                          <div class="col-3">
+                              <img src="img/youtube-icon.svg" alt="Logo de youtube">
+                          </div>
                       </div>
-                    </div>
-                  </footer>
-                  <div class="end">
-                       <footer class="row py-md-5 py-lg-5 py-sm-3  footer-element-color-red ">
-                      <div class="px-sm-1 px-lg-5 px-2 col-md-6 col-lg-6 col-sm-12">
-                      <p class="h6 font-weight-bold">@Look;Simplon 2021.All rights reserved</p>
-                      </div>
-                      <div class="px-sm-1 px-lg-5 px-2 col-md-6 col-lg-6 col-sm-12">
-                    <p style="margin-inline-end: 12%; margin-left: 220px;" class="h6 font-weight-bold">Made width <img
-                  src="img/heart-fill.svg" alt="emoji coeur"> by <strong>SimplonP4</strong>
-                </p>
-              </div>
-            </div>
-          </article>
-        </footer>     
+                  </div>
+                  <div class="col-md-6 col-lg-3 col-xl-3 col-sm-12 px-5 text-white">
+                       <p class="fw-bold h1 pb-sm-2 pb-lg-4 -pb-md-3 text-center text-lg-start">Voir plus</p>
+                       <p class="h4 text-center text-lg-start">À propos</p>
+                       <p class="h4 text-center text-lg-start">Notre histoire</p>
+                       <p class="h4 text-center text-lg-start">Conditions d'utilisation</p>
+                       <p class="h4 text-center text-lg-start">Politique de confidentialité</p>
+                       <p class="h4 text-center text-lg-start">FAQ</p>
+                  </div>
+                  <div class="col-md-6 col-lg-3 col-xl-3 col-sm-12 px-5 text-white">
+                       <p class="fw-bold h1 pb-sm-2 pb-lg-4 -pb-md-3 text-center text-lg-start">Coordonnées</p>
+                       <p class="h4 text-center text-lg-start">Cité Keur Gorgui <br> Dakar, Sicap, Liberté 2 <br> Sénégal</p>
+                       <p class="h4 text-center text-lg-start">simplon@email.com <br> help@simplon.com</p>
+                       <p class="h4 text-center text-lg-start">(221) 77 456 78 90 <br> (221) 77 654 32 10</p>
+                  </div>
+                  <div class="col-md-6 col-lg-3 col-xl-3 col-sm-12 px-5 text-white">
+                     <p class="fw-bold h1 pb-sm-2 pb-lg-4 -pb-md-3 text-center text-lg-start">Notre Newsletter</p>
+                     <p class="h4 text-center text-lg-start">Souscrivez-vous à notre newsletter pour ne manquer aucune de nos activités</p>
+                     <div class="height-input input-group mb-3">
+                       <input type="email" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                       <button class="btn btn-danger" type="submit" id="button-addon2">Joindre</button>
+                     </div>
+                  </div>
+                 </footer>
+                 <footer class="row py-md-5 py-lg-4 py-sm-2  footer-element-color-red ">
+                     <div class="px-sm-1 px-5 col-md-6 col-lg-6 col-sm-12">
+                         <p class="h3 font-weight-bold px-lg-5">Simplon 2021.All rights reserved</p>
+                     </div>
+                     <div class="px-sm-1 px-5 col-md-6 col-lg-6 col-sm-12 text-lg-end">
+                       <p class="h3 font-weight-bold px-lg-5">
+                           Made width <img src="img/heart-fill.svg" alt="emoji coeur"> by <strong>Simplon P4</strong>
+                       </p>
+                   </div>
+                 </footer>    
     </body>
   </html>
 
